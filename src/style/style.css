@@ -8,8 +8,6 @@
     --color-x-light: #C6C6C6;
     --color-light: #949494;
     --gutter: 16px;
-
-
 }
 
 body {
@@ -17,6 +15,8 @@ body {
         sans-serif;
     font-size: 16px;
 }
+
+
 
 .c-form {
     display: flex;
@@ -102,7 +102,6 @@ body {
 }
 
 /*------ CUSTOM INPUT -----*/
-
 /*
     Object: Hide accessible
     ---
@@ -121,10 +120,10 @@ body {
 }
 
 .c-form__input {
-    margin-right: 16px;
+    margin-right: 40px;
     border: none;
     font-size: 1.4rem;
-    font-weight: 300;
+    font-weight: 600;
 }
 
 .c-form__submit:active,
@@ -146,14 +145,16 @@ body {
 
 .c-header__text {
     font-size: 2rem;
-    margin-bottom: 10px;
-    font-weight: bold;
+    margin: var(--gutter);
+    font-weight: 600;
+
 }
 
 .c-header__text-sub {
     font-size: 1.4rem;
     line-height: 1.8rem;
     font-weight: 600;
+    margin-left: var(--gutter);
 }
 
 .c-row {
