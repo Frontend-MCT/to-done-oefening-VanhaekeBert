@@ -1,0 +1,16 @@
+{
+    "extends": ["airbnb", "prettier"],
+    "plugins": ["prettier"],
+    "parserOptions": {
+        "ecmaVersion": 6
+    },
+    "rules": {
+
+        "no-unused-vars": "off",
+        "no-undef": "off",
+        "semi": "error",
+        "func-names": "off",
+        "no-param-reassign": "off"
+
+    }
+}
